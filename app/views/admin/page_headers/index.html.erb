@@ -1,0 +1,4 @@
+<p> <%= link_to "Front Page News", admin_monthly_post_path(@current_monthly_post) %></p>
+<% @page_headers.each do |page| %>
+  <p> <%= link_to page.title, edit_admin_page_header_path(page) %> </p>
+<% end %>

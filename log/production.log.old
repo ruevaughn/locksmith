@@ -1,0 +1,1569 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-15 19:07:33 -0600
+
+
+Started GET "/en" for 127.0.0.1 at 2012-09-15 19:07:34 -0600
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/home.html.erb within layouts/application (602.8ms)
+Compiled nestedsortables.min  (1ms)  (pid 13846)
+Rendered layouts/_header.html.erb (184.2ms)
+Rendered layouts/_breadcrumbs.html.erb (0.4ms)
+Completed 200 OK in 2571ms (Views: 2312.3ms | ActiveRecord: 246.3ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:07:37 -0600
+Compiled application-6e7487c58bce6cd05e278fa49480d3f5.css  (5ms)  (pid 13846)
+Compiled abouts.css  (1454ms)  (pid 13846)
+Compiled categories.css  (2ms)  (pid 13846)
+Compiled contacts.css  (1ms)  (pid 13846)
+Compiled coupons.css  (1ms)  (pid 13846)
+Compiled faqs.css  (1ms)  (pid 13846)
+Compiled logos.css  (1ms)  (pid 13846)
+Compiled monthly_posts.css  (0ms)  (pid 13846)
+Compiled page_headers.css  (1ms)  (pid 13846)
+Compiled products.css  (2ms)  (pid 13846)
+Compiled request_bid.css  (1ms)  (pid 13846)
+Compiled reviews.css  (1ms)  (pid 13846)
+Compiled sessions.css  (1ms)  (pid 13846)
+Compiled styles.css  (166ms)  (pid 13846)
+Compiled subcategories.css  (1ms)  (pid 13846)
+Compiled users.css  (2ms)  (pid 13846)
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (1787ms)
+
+
+Started GET "/assets/main-1-big-6193d745ad8c4b41ba36bc7814c9bb45.jpg" for 127.0.0.1 at 2012-09-15 19:07:39 -0600
+Served asset /main-1-big-6193d745ad8c4b41ba36bc7814c9bb45.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/news-307047974b5070d65fc8b8f0fb01d989.png" for 127.0.0.1 at 2012-09-15 19:07:39 -0600
+Served asset /news-307047974b5070d65fc8b8f0fb01d989.png - 200 OK (13ms)
+
+
+Started GET "/assets/nestedsortables-4eb763bd2e3ce2f2addc904aa8f34700.min" for 127.0.0.1 at 2012-09-15 19:07:39 -0600
+Served asset /nestedsortables-4eb763bd2e3ce2f2addc904aa8f34700.min - 200 OK (0ms)
+
+
+Started GET "/assets/application-1dfa78f35a00ba12dbfbf7fb64177936.js" for 127.0.0.1 at 2012-09-15 19:07:39 -0600
+Compiled application-1dfa78f35a00ba12dbfbf7fb64177936.js  (40ms)  (pid 13846)
+Compiled jquery.js  (6ms)  (pid 13846)
+Compiled jquery-ui.js  (6ms)  (pid 13846)
+Compiled jquery_ujs.js  (1ms)  (pid 13846)
+Compiled abouts.js  (664ms)  (pid 13846)
+Compiled categories.js  (271ms)  (pid 13846)
+Compiled contacts.js  (215ms)  (pid 13846)
+Compiled coupons.js  (211ms)  (pid 13846)
+Compiled faqs.js  (230ms)  (pid 13846)
+Compiled logos.js  (209ms)  (pid 13846)
+Compiled monthly_posts.js  (215ms)  (pid 13846)
+Compiled page_headers.js  (293ms)  (pid 13846)
+Compiled products.js  (234ms)  (pid 13846)
+Compiled request_bid.js  (225ms)  (pid 13846)
+Compiled reviews.js  (221ms)  (pid 13846)
+Compiled serializelist.js  (0ms)  (pid 13846)
+Compiled sessions.js  (211ms)  (pid 13846)
+Compiled site.js  (218ms)  (pid 13846)
+Compiled subcategories.js  (208ms)  (pid 13846)
+Compiled users.js  (204ms)  (pid 13846)
+Served asset /application-1dfa78f35a00ba12dbfbf7fb64177936.js - 200 OK (24221ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:08:03 -0600
+
+
+Started GET "/assets/contact-29bff6fa735c4a061d735302b69180d4.png" for 127.0.0.1 at 2012-09-15 19:08:03 -0600
+Served asset /contact-29bff6fa735c4a061d735302b69180d4.png - 200 OK (13ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:08:03 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.1ms)
+
+
+Started GET "/assets/twitter-a2ec0b9ec16c3f66bba3db894c823b10.png" for 127.0.0.1 at 2012-09-15 19:08:04 -0600
+Served asset /twitter-a2ec0b9ec16c3f66bba3db894c823b10.png - 200 OK (21ms)
+
+
+Started GET "/assets/offers-173d60938a9f7b9fd427ab85fdb7dc23.png" for 127.0.0.1 at 2012-09-15 19:08:04 -0600
+Served asset /offers-173d60938a9f7b9fd427ab85fdb7dc23.png - 200 OK (11ms)
+
+
+Started GET "/assets/facebook-480b2d6041180827c7f9a772b5929b4b.png" for 127.0.0.1 at 2012-09-15 19:08:04 -0600
+Served asset /facebook-480b2d6041180827c7f9a772b5929b4b.png - 200 OK (4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:08:05 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-09-15 19:08:06 -0600
+
+
+Started GET "/en/favicon" for 127.0.0.1 at 2012-09-15 19:08:06 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-09-15 19:08:06 -0600
+
+
+Started GET "/en/favicon" for 127.0.0.1 at 2012-09-15 19:08:06 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2012-09-15 19:10:35 -0600
+
+
+Started GET "/en/login" for 127.0.0.1 at 2012-09-15 19:10:35 -0600
+  Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+Rendered sessions/new.html.erb within layouts/application (16.6ms)
+Rendered layouts/_header.html.erb (71.3ms)
+Rendered layouts/_breadcrumbs.html.erb (0.3ms)
+Completed 200 OK in 216ms (Views: 194.9ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:10:36 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (136ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:10:36 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:10:36 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:10:36 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/login" for 127.0.0.1 at 2012-09-15 19:12:26 -0600
+  Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+Rendered sessions/new.html.erb within layouts/application (7.4ms)
+Rendered layouts/_header.html.erb (7.4ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 18.3ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:12:26 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (2ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:12:26 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:12:26 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:12:26 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:12:27 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:12:27 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/login" for 127.0.0.1 at 2012-09-15 19:12:53 -0600
+  Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+Rendered sessions/new.html.erb within layouts/application (31.9ms)
+Rendered layouts/_header.html.erb (131.9ms)
+Rendered layouts/_breadcrumbs.html.erb (0.3ms)
+Completed 200 OK in 400ms (Views: 378.1ms | ActiveRecord: 18.1ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:12:54 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (57ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:12:54 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:12:54 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:12:54 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.5ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:12:54 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:12:55 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (6.5ms)
+
+
+Started POST "/en/sessions" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wOqnOb6DV1Y0htC5P9eGB0KPcVypDFr1bNWm4ezjQbw=", "email"=>"soccerchase@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log in", "locale"=>"en"}
+Redirected to http://localhost:3000/?locale=en
+Completed 302 Found in 124ms
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+
+
+Started GET "/en" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/home.html.erb within layouts/application (209.7ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 246ms (Views: 208.8ms | ActiveRecord: 32.8ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:03 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/admin/panel" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+  Processing by Admin::PageController#panel as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/page/panel.html.erb within layouts/application (1.8ms)
+Rendered layouts/_header.html.erb (4.6ms)
+Rendered layouts/_breadcrumbs.html.erb (2.0ms)
+Completed 200 OK in 25ms (Views: 20.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (4.9ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:09 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/admin/page_headers" for 127.0.0.1 at 2012-09-15 19:13:10 -0600
+  Processing by Admin::PageHeadersController#index as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/page_headers/index.html.erb within layouts/application (10.4ms)
+Rendered layouts/_header.html.erb (3.8ms)
+Rendered layouts/_breadcrumbs.html.erb (0.3ms)
+Completed 200 OK in 35ms (Views: 17.2ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:11 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (1ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:11 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:11 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:11 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/admin/monthly_posts/1" for 127.0.0.1 at 2012-09-15 19:13:12 -0600
+  Processing by Admin::MonthlyPostsController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"1"}
+Rendered admin/monthly_posts/show.html.erb within layouts/application (9.2ms)
+Rendered layouts/_header.html.erb (5.7ms)
+Rendered layouts/_breadcrumbs.html.erb (0.2ms)
+Completed 200 OK in 46ms (Views: 33.7ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:12 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (2ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:12 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:12 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:12 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:13 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:14 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:15 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/admin/page_headers/1/edit" for 127.0.0.1 at 2012-09-15 19:13:16 -0600
+  Processing by Admin::PageHeadersController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"1"}
+Rendered admin/page_headers/_form.html.erb (4.8ms)
+Rendered admin/page_headers/edit.html.erb within layouts/application (9.7ms)
+Rendered layouts/_header.html.erb (6.2ms)
+Rendered layouts/_breadcrumbs.html.erb (0.2ms)
+Completed 200 OK in 33ms (Views: 23.4ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:16 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:16 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:16 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:16 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (5.3ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:17 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:17 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:19 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/admin/page_headers/2/edit" for 127.0.0.1 at 2012-09-15 19:13:20 -0600
+  Processing by Admin::PageHeadersController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"2"}
+Rendered admin/page_headers/_form.html.erb (3.1ms)
+Rendered admin/page_headers/edit.html.erb within layouts/application (3.3ms)
+Rendered layouts/_header.html.erb (3.7ms)
+Rendered layouts/_breadcrumbs.html.erb (0.2ms)
+Completed 200 OK in 22ms (Views: 9.7ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:20 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:20 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:20 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:20 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:22 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (5.4ms)
+
+
+Started GET "/en/admin/page_headers/4/edit" for 127.0.0.1 at 2012-09-15 19:13:23 -0600
+  Processing by Admin::PageHeadersController#edit as HTML
+  Parameters: {"locale"=>"en", "id"=>"4"}
+Rendered admin/page_headers/_form.html.erb (5.8ms)
+Rendered admin/page_headers/edit.html.erb within layouts/application (6.1ms)
+Rendered layouts/_header.html.erb (5.3ms)
+Rendered layouts/_breadcrumbs.html.erb (0.2ms)
+Completed 200 OK in 27ms (Views: 13.0ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:23 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (2ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:23 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:23 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (19.8ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:23 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:24 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:24 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/en/admin/faqs" for 127.0.0.1 at 2012-09-15 19:13:26 -0600
+  Processing by Admin::FaqsController#index as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/faqs/index.html.erb within layouts/application (34.8ms)
+Rendered layouts/_header.html.erb (3.8ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 52ms (Views: 33.2ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:26 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:26 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:26 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:26 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/admin/panel" for 127.0.0.1 at 2012-09-15 19:13:28 -0600
+  Processing by Admin::PageController#panel as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/page/panel.html.erb within layouts/application (1.8ms)
+Rendered layouts/_header.html.erb (49.8ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 52.1ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:28 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:28 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:28 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:28 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:28 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:30 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/en/admin/contacts" for 127.0.0.1 at 2012-09-15 19:13:31 -0600
+  Processing by Admin::ContactsController#index as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/contacts/index.html.erb within layouts/application (0.9ms)
+Rendered layouts/_header.html.erb (4.0ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 10.9ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:31 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:31 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:31 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:31 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:32 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:33 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:35 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/admin/products" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+  Processing by Admin::ProductsController#index as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/shared/_admin_subcategories.html.erb (69.1ms)
+Rendered admin/shared/_admin_subcategories.html.erb (11.8ms)
+Rendered admin/products/index.html.erb within layouts/application (103.2ms)
+Rendered layouts/_header.html.erb (3.3ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 129ms (Views: 104.6ms | ActiveRecord: 21.2ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+
+
+Started GET "/assets/arrow_down_16-5efea4a918f6ee9226a0ca0869490c3f.png" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+Served asset /arrow_down_16-5efea4a918f6ee9226a0ca0869490c3f.png - 200 OK (56ms)
+
+
+Started GET "/assets/arrow_up_16-a143517bfba50211f0eec95245c824d4.png" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+Served asset /arrow_up_16-a143517bfba50211f0eec95245c824d4.png - 200 OK (4ms)
+
+
+Started GET "/assets/delete_16-5ce8ccb8eaf495da4b18e128c19b9b26.png" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+Served asset /delete_16-5ce8ccb8eaf495da4b18e128c19b9b26.png - 200 OK (7ms)
+
+
+Started GET "/assets/edit_16-9ed3d7827568335bd98259ed06fd8230.png" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+Served asset /edit_16-9ed3d7827568335bd98259ed06fd8230.png - 200 OK (5ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:37 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started PUT "/en/admin/products/1/move_down" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+  Processing by Admin::ProductsController#move_down as HTML
+  Parameters: {"authenticity_token"=>"wOqnOb6DV1Y0htC5P9eGB0KPcVypDFr1bNWm4ezjQbw=", "locale"=>"en", "id"=>"1"}
+Redirected to http://localhost:3000/en/admin/products
+Completed 302 Found in 37ms
+
+
+Started GET "/en/admin/products" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+  Processing by Admin::ProductsController#index as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/shared/_admin_subcategories.html.erb (30.7ms)
+Rendered admin/shared/_admin_subcategories.html.erb (9.0ms)
+Rendered admin/products/index.html.erb within layouts/application (44.9ms)
+Rendered layouts/_header.html.erb (4.6ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 41.5ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:41 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started PUT "/en/admin/products/1/move_up" for 127.0.0.1 at 2012-09-15 19:13:45 -0600
+  Processing by Admin::ProductsController#move_up as HTML
+  Parameters: {"authenticity_token"=>"wOqnOb6DV1Y0htC5P9eGB0KPcVypDFr1bNWm4ezjQbw=", "locale"=>"en", "id"=>"1"}
+Redirected to http://localhost:3000/en/admin/products
+Completed 302 Found in 14ms
+
+
+Started GET "/en/admin/products" for 127.0.0.1 at 2012-09-15 19:13:45 -0600
+  Processing by Admin::ProductsController#index as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/shared/_admin_subcategories.html.erb (29.4ms)
+Rendered admin/shared/_admin_subcategories.html.erb (9.6ms)
+Rendered admin/products/index.html.erb within layouts/application (42.4ms)
+Rendered layouts/_header.html.erb (4.2ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 40.3ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-15 19:13:45 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-15 19:13:45 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-15 19:13:45 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (18.3ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:45 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:49 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:53 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-15 19:13:55 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-18 12:21:41 -0600
+
+
+Started GET "/en" for 127.0.0.1 at 2012-09-18 12:21:41 -0600
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/home.html.erb within layouts/application (306.7ms)
+Compiled nestedsortables.min  (1ms)  (pid 16866)
+Rendered layouts/_header.html.erb (99.2ms)
+Rendered layouts/_breadcrumbs.html.erb (0.4ms)
+Completed 200 OK in 1363ms (Views: 1287.4ms | ActiveRecord: 70.6ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-18 12:21:42 -0600
+Compiled application-6e7487c58bce6cd05e278fa49480d3f5.css  (31ms)  (pid 16866)
+Compiled abouts.css  (1991ms)  (pid 16866)
+Compiled categories.css  (2ms)  (pid 16866)
+Compiled contacts.css  (2ms)  (pid 16866)
+Compiled coupons.css  (3ms)  (pid 16866)
+Compiled faqs.css  (4ms)  (pid 16866)
+Compiled logos.css  (6ms)  (pid 16866)
+Compiled monthly_posts.css  (17ms)  (pid 16866)
+Compiled page_headers.css  (4ms)  (pid 16866)
+Compiled products.css  (1ms)  (pid 16866)
+Compiled request_bid.css  (1ms)  (pid 16866)
+Compiled reviews.css  (2ms)  (pid 16866)
+Compiled sessions.css  (6ms)  (pid 16866)
+Compiled styles.css  (55ms)  (pid 16866)
+Compiled subcategories.css  (3ms)  (pid 16866)
+Compiled users.css  (5ms)  (pid 16866)
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (2302ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-18 12:21:45 -0600
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-18 12:21:45 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-18 12:21:45 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/contact_us" for 127.0.0.1 at 2012-09-18 12:21:52 -0600
+  Processing by PageController#contact_us as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/contact_us.html.erb within layouts/application (5.6ms)
+Rendered layouts/_header.html.erb (8.5ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 181ms (Views: 85.5ms | ActiveRecord: 89.9ms)
+
+
+Started GET "/uploads/logo/image/1/logo.png" for 127.0.0.1 at 2012-09-18 12:21:52 -0600
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-18 12:21:52 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/en/uploads/logo/image/1/logo" for 127.0.0.1 at 2012-09-18 12:21:52 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-18 12:21:52 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/contact_us" for 127.0.0.1 at 2012-09-18 12:24:36 -0600
+  Processing by PageController#contact_us as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/contact_us.html.erb within layouts/application (180.5ms)
+Rendered layouts/_header.html.erb (69.9ms)
+Rendered layouts/_breadcrumbs.html.erb (0.3ms)
+Completed 200 OK in 381ms (Views: 358.0ms | ActiveRecord: 18.0ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-18 12:24:36 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (78ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:24:36 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:24:36 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-18 12:24:36 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:24:37 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:24:37 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/contact_us" for 127.0.0.1 at 2012-09-18 12:24:41 -0600
+  Processing by PageController#contact_us as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/contact_us.html.erb within layouts/application (4.9ms)
+Rendered layouts/_header.html.erb (6.0ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 31ms (Views: 14.2ms | ActiveRecord: 13.6ms)
+
+
+Started GET "/assets/application-6e7487c58bce6cd05e278fa49480d3f5.css" for 127.0.0.1 at 2012-09-18 12:24:41 -0600
+Nonexistent asset application-6e7487c58bce6cd05e278fa49480d3f5.css @ 6e7487c58bce6cd05e278fa49480d3f5
+Served asset /application-6e7487c58bce6cd05e278fa49480d3f5.css - 404 Not Found (0ms)
+
+
+Started GET "/assets/application-1dfa78f35a00ba12dbfbf7fb64177936.js" for 127.0.0.1 at 2012-09-18 12:24:41 -0600
+Compiled application-1dfa78f35a00ba12dbfbf7fb64177936.js  (30ms)  (pid 17363)
+Compiled jquery.js  (18ms)  (pid 17363)
+Compiled jquery-ui.js  (6ms)  (pid 17363)
+Compiled jquery_ujs.js  (7ms)  (pid 17363)
+Compiled abouts.js  (434ms)  (pid 17363)
+Compiled categories.js  (122ms)  (pid 17363)
+Compiled contacts.js  (121ms)  (pid 17363)
+Compiled coupons.js  (118ms)  (pid 17363)
+Compiled faqs.js  (129ms)  (pid 17363)
+Compiled logos.js  (119ms)  (pid 17363)
+Compiled monthly_posts.js  (134ms)  (pid 17363)
+Compiled page_headers.js  (146ms)  (pid 17363)
+Compiled products.js  (126ms)  (pid 17363)
+Compiled request_bid.js  (114ms)  (pid 17363)
+Compiled reviews.js  (132ms)  (pid 17363)
+Compiled serializelist.js  (0ms)  (pid 17363)
+Compiled sessions.js  (120ms)  (pid 17363)
+Compiled site.js  (120ms)  (pid 17363)
+Compiled subcategories.js  (119ms)  (pid 17363)
+Compiled users.js  (113ms)  (pid 17363)
+Error compiling asset application-1dfa78f35a00ba12dbfbf7fb64177936.js:
+ExecJS::RuntimeError: 
+  (in /home/chase/projects/jensenlocksmithing.com/app/assets/javascripts/application.js)
+Served asset /application-1dfa78f35a00ba12dbfbf7fb64177936.js - 500 Internal Server Error
+
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:24:49 -0600
+
+
+Started GET "/assets/nestedsortables-4eb763bd2e3ce2f2addc904aa8f34700.min" for 127.0.0.1 at 2012-09-18 12:24:49 -0600
+Served asset /nestedsortables-4eb763bd2e3ce2f2addc904aa8f34700.min - 200 OK (0ms)
+
+
+Started GET "/en/assets/application-6e7487c58bce6cd05e278fa49480d3f5" for 127.0.0.1 at 2012-09-18 12:24:49 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (2.3ms)
+Compiled jquery-ui.min.js  (5ms)  (pid 17541)
+Compiled jquery.min.js  (119ms)  (pid 17541)
+
+
+Started GET "/en/contact_us" for 127.0.0.1 at 2012-09-18 12:30:37 -0600
+  Processing by PageController#contact_us as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/contact_us.html.erb within layouts/application (172.7ms)
+Rendered layouts/_header.html.erb (70.2ms)
+Rendered layouts/_breadcrumbs.html.erb (0.4ms)
+Completed 200 OK in 367ms (Views: 342.5ms | ActiveRecord: 20.4ms)
+
+
+Started GET "/assets/application-8f0571ac1ffca078a8bf3f81af6fb486.css" for 127.0.0.1 at 2012-09-18 12:30:37 -0600
+Served asset /application-8f0571ac1ffca078a8bf3f81af6fb486.css - 200 OK (38ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:30:37 -0600
+
+
+Started GET "/assets/bg-lines-99f379e773157f76de00a456801ec63f.gif" for 127.0.0.1 at 2012-09-18 12:30:38 -0600
+Served asset /bg-lines-99f379e773157f76de00a456801ec63f.gif - 200 OK (6ms)
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:30:38 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/home" for 127.0.0.1 at 2012-09-18 12:30:43 -0600
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/home.html.erb within layouts/application (62.8ms)
+Rendered layouts/_header.html.erb (5.3ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 59.0ms | ActiveRecord: 16.6ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:30:43 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:30:44 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/services" for 127.0.0.1 at 2012-09-18 12:30:51 -0600
+  Processing by PageController#services as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/_subcategories.erb (17.4ms)
+Rendered page/_subcategories.erb (2.0ms)
+Rendered page/services.html.erb within layouts/application (42.2ms)
+Rendered layouts/_header.html.erb (3.4ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 56ms (Views: 44.2ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:30:51 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:30:51 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/login" for 127.0.0.1 at 2012-09-18 12:30:56 -0600
+  Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Rendered layouts/_header.html.erb (3.2ms)
+Rendered layouts/_breadcrumbs.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 11.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:30:56 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:30:56 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/en/login" for 127.0.0.1 at 2012-09-18 12:39:36 -0600
+  Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Rendered layouts/_header.html.erb (11.5ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 120ms (Views: 17.8ms | ActiveRecord: 90.9ms)
+
+
+Started GET "/assets/application-1dfa78f35a00ba12dbfbf7fb64177936.js" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+Served asset /application-1dfa78f35a00ba12dbfbf7fb64177936.js - 200 OK (101ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (6.2ms)
+
+
+Started GET "/assets/contact-29bff6fa735c4a061d735302b69180d4.png" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+Served asset /contact-29bff6fa735c4a061d735302b69180d4.png - 200 OK (15ms)
+
+
+Started GET "/assets/twitter-a2ec0b9ec16c3f66bba3db894c823b10.png" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+Served asset /twitter-a2ec0b9ec16c3f66bba3db894c823b10.png - 200 OK (14ms)
+
+
+Started GET "/assets/offers-173d60938a9f7b9fd427ab85fdb7dc23.png" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+Served asset /offers-173d60938a9f7b9fd427ab85fdb7dc23.png - 200 OK (96ms)
+
+
+Started GET "/assets/facebook-480b2d6041180827c7f9a772b5929b4b.png" for 127.0.0.1 at 2012-09-18 12:39:37 -0600
+Served asset /facebook-480b2d6041180827c7f9a772b5929b4b.png - 200 OK (7ms)
+
+
+Started POST "/en/sessions" for 127.0.0.1 at 2012-09-18 12:39:42 -0600
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lnz1EIm4ZQ64TG3W6p7PBNGY0twBPvSBMONLN+S/AtA=", "email"=>"soccerchase@gmail.com", "password"=>"[FILTERED]", "commit"=>"Log in", "locale"=>"en"}
+Redirected to http://localhost:3000/?locale=en
+Completed 302 Found in 98ms
+
+
+Started GET "/?locale=en" for 127.0.0.1 at 2012-09-18 12:39:42 -0600
+
+
+Started GET "/en" for 127.0.0.1 at 2012-09-18 12:39:42 -0600
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/home.html.erb within layouts/application (23.3ms)
+Rendered layouts/_header.html.erb (7.5ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 28.8ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:39:42 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:39:42 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2012-09-18 12:40:06 -0600
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/home.html.erb within layouts/application (22.7ms)
+Rendered layouts/_header.html.erb (5.1ms)
+Rendered layouts/_breadcrumbs.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 20.0ms | ActiveRecord: 21.5ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:40:06 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:40:06 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/news-307047974b5070d65fc8b8f0fb01d989.png" for 127.0.0.1 at 2012-09-18 12:40:06 -0600
+Served asset /news-307047974b5070d65fc8b8f0fb01d989.png - 200 OK (123ms)
+
+
+Started GET "/assets/main-1-big-6193d745ad8c4b41ba36bc7814c9bb45.jpg" for 127.0.0.1 at 2012-09-18 12:40:06 -0600
+Served asset /main-1-big-6193d745ad8c4b41ba36bc7814c9bb45.jpg - 200 OK (72ms)
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:40:07 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:40:11 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/en/log_out" for 127.0.0.1 at 2012-09-18 12:40:12 -0600
+  Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"en"}
+Redirected to http://localhost:3000/en/admin/panel
+Completed 302 Found in 7ms
+
+
+Started GET "/en/admin/panel" for 127.0.0.1 at 2012-09-18 12:40:12 -0600
+  Processing by Admin::PageController#panel as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/page/panel.html.erb within layouts/application (5.2ms)
+Rendered layouts/_header.html.erb (5.5ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 34ms (Views: 25.4ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:40:12 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:40:12 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/en/admin/panel" for 127.0.0.1 at 2012-09-18 12:41:25 -0600
+  Processing by Admin::PageController#panel as HTML
+  Parameters: {"locale"=>"en"}
+Rendered admin/page/panel.html.erb within layouts/application (1.3ms)
+Rendered layouts/_header.html.erb (3.7ms)
+Rendered layouts/_breadcrumbs.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 8.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/uploads/logo/image/2/logo.png" for 127.0.0.1 at 2012-09-18 12:41:25 -0600
+
+
+Started GET "/en/uploads/logo/image/2/logo" for 127.0.0.1 at 2012-09-18 12:41:25 -0600
+
+AbstractController::ActionNotFound (The action 'not_found' could not be found for PageController):
+  
+
+Rendered /home/chase/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+Migrating to CreateUsers (20120112050343)
+Migrating to CreateMonthlyPosts (20120113202000)
+Migrating to CreateCoupons (20120114041945)
+Migrating to CreateCategories (20120210044847)
+Migrating to CreateProducts (20120210052651)
+Migrating to CreateFaqs (20120212033317)
+Migrating to CreateReviews (20120216042225)
+Migrating to CreateMonthlyPostTranslations (20120408061843)
+Migrating to CreateFaqTranslations (20120409055548)
+Migrating to CreateContacts (20120409202857)
+Migrating to CreateLogos (20120412221753)
+Migrating to CreateReviewTranslations (20120415220739)
+Migrating to CreatePageHeaders (20120905232427)
+Migrating to AddEmailAndPhoneToReview (20130207063338)
+Compiled nestedsortables.min.js  (0ms)  (pid 599)
+Compiled jquery-ui.min.js  (2ms)  (pid 599)
+Compiled jquery.min.js  (1ms)  (pid 599)
+Compiled application.js  (5ms)  (pid 599)
+Compiled jquery.js  (5ms)  (pid 599)
+Compiled jquery-ui.js  (50ms)  (pid 599)
+Compiled jquery_ujs.js  (0ms)  (pid 599)
+Compiled categories.js  (251ms)  (pid 599)
+Compiled faqs.js  (250ms)  (pid 599)
+Compiled main.js  (0ms)  (pid 599)
+Compiled products.js  (266ms)  (pid 599)
+Compiled serializelist.js  (0ms)  (pid 599)
+Compiled bootstrap.js  (15ms)  (pid 599)
+Compiled bootstrap-transition.js  (0ms)  (pid 599)
+Compiled bootstrap-affix.js  (0ms)  (pid 599)
+Compiled bootstrap-alert.js  (0ms)  (pid 599)
+Compiled bootstrap-button.js  (0ms)  (pid 599)
+Compiled bootstrap-carousel.js  (0ms)  (pid 599)
+Compiled bootstrap-collapse.js  (0ms)  (pid 599)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 599)
+Compiled bootstrap-modal.js  (0ms)  (pid 599)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 599)
+Compiled bootstrap-tab.js  (0ms)  (pid 599)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 599)
+Compiled bootstrap-popover.js  (0ms)  (pid 599)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 599)
+Compiled application.css  (57ms)  (pid 599)
+Compiled _variables.css  (7ms)  (pid 599)
+Compiled boilerplate.css  (0ms)  (pid 599)
+Compiled bootstrap_and_overrides.css  (2749ms)  (pid 599)
+Compiled categories.css  (2ms)  (pid 599)
+Compiled faqs.css  (1ms)  (pid 599)
+Compiled products.css  (2ms)  (pid 599)
+Compiled styles.css  (130ms)  (pid 599)
+
+
+Started GET "/" for 50.21.192.188 at 2013-06-17 06:22:15 +0000
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:22:15 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (69.8ms)
+Rendered page/home.html.erb within layouts/application (78.8ms)
+Completed 500 Internal Server Error in 180ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb___3009863489522091134_34921320'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb__8997537491796866_31367540'
+
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:22:45 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.8ms)
+Rendered page/home.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb___3009863489522091134_34921320'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb__8997537491796866_31367540'
+
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:23:27 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (50.0ms)
+Rendered page/home.html.erb within layouts/application (58.6ms)
+Completed 500 Internal Server Error in 156ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:24:08 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.8ms)
+Rendered page/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:24:23 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.7ms)
+Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:24:51 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.7ms)
+Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+
+
+
+Started GET "/" for 50.21.192.188 at 2013-06-17 06:24:56 +0000
+
+
+Started GET "/en" for 50.21.192.188 at 2013-06-17 06:24:56 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.8ms)
+Rendered page/home.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+
+
+
+Started GET "/" for 67.182.196.148 at 2013-06-17 06:25:01 +0000
+
+
+Started GET "/en" for 67.182.196.148 at 2013-06-17 06:25:02 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.7ms)
+Rendered page/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+
+
+
+Started GET "/" for 67.182.196.148 at 2013-06-17 06:25:02 +0000
+
+
+Started GET "/en" for 67.182.196.148 at 2013-06-17 06:25:02 +0000
+  Processing by PageController#home as HTML
+  Parameters: {"locale"=>"en"}
+Rendered page/layouts/_services.html.erb (0.7ms)
+Rendered page/home.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <div class='row-fluid'>
+    2: 		<div class='span7'>
+    3: 			<h1 class='headline'><%= @services.name %></h1>
+    4: 			<%= render 'subcategories', item: @services %> 
+    5: 	</div>
+    6: 	<div class="span5">
+  app/views/page/layouts/_services.html.erb:3:in `_app_views_page_layouts__services_html_erb__1608073196604389275_30125400'
+  app/views/page/home.html.erb:21:in `_app_views_page_home_html_erb___303530071824737362_30679220'
+

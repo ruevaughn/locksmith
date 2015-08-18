@@ -1,0 +1,7 @@
+<%= link_to "Upload new logo", new_admin_logo_path %>
+
+<ul>
+  <% @logos.each do |logo| %>
+	  <li><%= link_to logo.name, admin_logo_path(logo) %></li>
+  <% end %>
+</ul>

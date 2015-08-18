@@ -1,0 +1,13 @@
+<%= form_for [:admin, @monthly_post] do |f| %>
+  <table>
+    <tr>
+      <td><%= f.label(:body, "Message") %></td>
+    </tr>
+    <tr>
+   		<td><%= f.text_area :body %></td>
+   	</tr>
+   	<tr>
+  	  <td><%= f.submit("Submit") %></td>
+  	 </tr>
+</table>
+<% end %>

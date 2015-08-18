@@ -1,0 +1,34 @@
+<table>
+
+<%= form_for(@review) do |f| %>
+<tr>
+  <td> <%= f.label(:first_name) %></td>
+  <td><%= f.text_field :first_name %></td>
+</tr>
+
+<tr>
+  <td><%= f.label(:last_name) %></td>
+  <td><%= f.text_field :last_name %></td>
+</tr>
+
+<tr>
+  <td><%= f.label(:body, "Review") %></td>
+  <td><%= f.text_area :body, :style => "width:275px" %></td>
+</tr>
+
+<tr>
+	<td><%= f.label(:email) %></td>
+	<td><%= f.text_field :email %></td>
+</tr>
+
+<tr>
+	<td><%= f.label(:phone) %></td>
+	<td><%= f.text_field(:phone) %></td>
+</tr>
+
+<tr>
+  <td><%= f.submit("Submit") %></td>
+</tr>
+<% end %>
+
+</table>

@@ -1,0 +1,8 @@
+<%= form_for @message, :url => request_bid_path do |form| %>
+
+      <%= form.text_field :email, placeholder: "Your email address" %>
+    
+      <%= form.text_area :body %>
+
+      <br /><%= form.submit "Submit", class: 'btn' %>
+<% end %>

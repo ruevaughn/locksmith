@@ -1,0 +1,36 @@
+es:
+  request_bid:
+    new:
+      description: "Por favor, rellene el siguiente formulario. Vamos a recibir su oferta y en contacto con usted lo antes posible. Gracias por darnos la oportunidad de servirle!"
+      request: "Solicitar una oferta"
+  page:
+    home:
+      about: "Acerca de nosotros"
+      news: "Cerrajería Jensen Noticias"
+    discounts:
+      coupon_name: "Nombre del Cupón:"
+      coupon_description: "Descripción"
+      coupon_expiration: "Expira"
+    faq:
+      question: "Pregunta:"
+      answer: "Responder:"
+    contact_us:
+      phone: "Número de teléfono:"
+      email: "Dirección de correo electrónico:"
+      bid: "Necesitas una oferta? Solicítelo"
+      here: "aqui!"
+      
+  layouts:
+    application:
+      call: "Llámenos hoy!"
+      contact1: "Entendemos que hay situaciones de emergencia 24/7. Vamos a estar aquí para usted. Danos una llamada en"
+      number: "(435)-669-4637"
+      contact2: "para un gran servicio."
+      special: "Ofertas Especiales"
+      special_description: "Aquí en Cerrajería Jensen amamos descuentos tanto como usted lo hace. Echa un vistazo a nuestros cupones y descuentos de la sección"
+      here: "aquí"
+    header:
+      emergency: "Tienes una emergencia?!"
+      click: "Clic"
+      here: "aquí"
+      for_help: "para obtener ayuda"

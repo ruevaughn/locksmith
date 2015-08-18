@@ -1,0 +1,9 @@
+<%= form_for @review do |f| %>
+	<%= f.text_field :first_name, placeholder: 'First Name' %>
+	<%= f.text_field :last_name, placeholder: 'Last Name' %>
+
+	<%= f.text_area :body, placeholder: 'Please leave us a review, we love feedback!' %>
+<br />
+	<%= f.submit 'Submit', class: 'btn'%>
+	<%= link_to 'close' %>
+<% end %>

@@ -1,0 +1,38 @@
+<div id="product_notes">
+<table>
+  <th> <h4> Product Notes </h4> </th>
+  <tr>
+    <td>
+      Name shouldn't be blank, and price can be empty. If no price is listed it will ignore it and not display one. Select the category you want this subcategory to go under.
+    </td>
+  </tr>
+</table>
+</div>
+<br />
+<table>
+<%= form_for [:admin, @product] do |f| %>
+  <tr>
+    <td><%= f.label(:name) %></td>
+      <td><%= f.text_field :name %></td> 
+  </tr>
+  <tr>
+    <td><%= f.label(:price) %></td>
+    <td><%= f.text_field :price %></td>
+  </tr>
+  <tr>
+    <td><%= f.label(:description) %></td>
+    <td><%= f.text_area :description %></td>
+  </tr>
+  <tr>
+    <td><%= f.label(:category_id) %></td>
+    <td><%= f.select(:category_id, options_from_collection_for_select(Category.subcategories, :id, :name)) %></td>
+  </tr>
+
+  <!-- TODO: Add Ability to upload images if needed -->
+  <%# f.file_field :image %>
+<tr>
+  <td></td>
+  <td><%= f.submit("Submit") %></td>
+</tr>
+<% end %>
+</table>

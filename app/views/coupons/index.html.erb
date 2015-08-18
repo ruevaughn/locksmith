@@ -1,0 +1,10 @@
+<br /><%= link_to "Create Coupon", new_coupon_path %> <br />
+
+<% @coupons.each do |coupon| %>
+  <br />Name of Coupon: <%= coupon.name %>
+  <br />Description: <%= coupon.description %>
+  <br />Expires: <%= coupon.expiration.strftime("%m-%d-%Y") %> <br /> 
+  <%= link_to "Edit Coupon", edit_coupon_path(coupon) %> |
+  <%= link_to "Delete Coupon", coupon, :method => :delete,
+:confirm => "Are you sure you want to delete this coupon?" %> <br />
+<% end %>

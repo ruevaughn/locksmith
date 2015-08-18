@@ -1,0 +1,14 @@
+<h3><%= @page_header.title %></h3>
+<p><%= @page_header.description %></p>
+<% @faqs.each do |faq| %>
+<hr>
+  <div class="<%= cycle('faq_odd', 'faq_even') %>">
+	  <div id="faq-question">
+		  <h3><%= t ".question" %></h3> <p><%= faq.question %></p>
+	  </div>
+	
+	  <div id="faq-answer">
+		  <h3><%= t ".answer" %></h3> <p><%= faq.answer %></p>
+    </div>
+  </div>
+ <% end %>

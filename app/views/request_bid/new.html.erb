@@ -1,0 +1,32 @@
+<p><%= t ".description" %></p>
+
+<h3><%= t ".request" %> </h3>
+
+<%= form_for @message, :url => request_bid_path do |form| %>
+  <table>
+    <tr>
+      <td><%= form.label :name %></td>
+      <td><%= form.text_field :name %></td>
+    </tr>
+    
+    <tr>
+      <td><%= form.label :email %></td>
+      <td><%= form.text_field :email %></td>
+    </tr>
+
+    <tr>
+      <td><%= form.label :subject %></td>
+      <td><%= form.text_field :subject %></td>
+    </tr>
+    
+    <tr>
+      <td><%= form.label :body, "Bid Info" %></td>
+      <td><%= form.text_area :body, cols: "40", rows: "15" %></td>
+    </tr>
+  
+    <tr>
+      <td></td>
+      <td><%= form.submit "Send" %></td>
+    </tr>
+  </table>
+<% end %>

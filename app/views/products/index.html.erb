@@ -1,0 +1,32 @@
+<nav id="admin">
+<ul>
+  <li><%= link_to "New Category", new_category_path %></li>
+  <li><%= link_to "New Subcategory", new_subcategory_categories_path %></li>
+  <li><%= link_to "New product", new_product_path %></li>
+</ul>
+</nav>
+
+<h3>Categories</h3>
+<div id="category">
+<ul id="sortable">
+  <% for cat in Category.roots %>
+    <li id='category_<%= cat.id %>'>
+    <span><%= cat.name %></span>
+    <span>Depth: <%= cat.depth %>
+     
+      <%= link_to raw('<span class="button-edit">Edit</span>'), edit_category_path(cat) %>
+      <%= link_to raw('<span class="button-delete">Delete</span>'), cat, :method => :delete, :confirm => "Are you sure you want to delete this category?" %><br /> <br />
+      <%= render 'shared/children', :item => cat unless cat.leaf? %>
+    </li>
+       <hr>
+  <% end %>
+  <!-- end category -->
+  <h3><a href='#' id='serialize'>Save Order</a> | <a href="javascript:location.reload(true)">Reset</a></h3>
+</ul>
+  </div>
+
+
+
+
+
+

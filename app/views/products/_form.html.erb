@@ -1,0 +1,29 @@
+<%= form_for(@product) do |f| %>
+<p>
+  <%= f.label(:name) %>
+  <%= f.text_field :name %>
+</p>
+<p>
+  <%# f.label(:position) %>
+  <%# f.text_field :position %>
+</p>
+<p>
+  <%= f.label(:price) %>
+  <%= f.text_field :price %>
+</p>
+<p>
+  <%= f.label(:description) %>
+  <%= f.text_area :description %>
+</p>
+<p>
+  <%= f.label(:category_id) %>
+  <%= f.select(:category_id, options_from_collection_for_select(Category.subcategories, :id, :name)) %>
+</p>
+
+<p>
+  Image: <%= f.file_field :image %>
+</p>
+<p>
+  <%= f.submit("Submit") %>
+</p>
+<% end %>

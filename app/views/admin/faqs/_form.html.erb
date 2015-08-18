@@ -1,0 +1,19 @@
+<div id="faq_form">
+<table>
+	<%= form_for [:admin, @faq] do |f| %>
+	  <th><%= f.label(:question) %></th>
+	  <th><%= f.label(:answer) %>  </th>
+	  <tr>
+	  	<td>
+	  		<%= f.text_area :question %>
+	  	</td>
+	  	<td>
+	  		<%= f.text_area :answer %>
+	  	</td>
+	  </tr>
+	  <tr>
+	  	<td><%= f.submit("Submit") %></td>
+	  </tr>
+<% end %>
+</table>
+</div>

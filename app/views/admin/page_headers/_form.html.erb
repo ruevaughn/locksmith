@@ -1,0 +1,16 @@
+<%= form_for(@page_header, url: admin_page_header_path) do |f| %>
+  <table>
+    <tr>
+  		<td><%= f.label(:title) %></td>
+  		<td><%= f.text_field :title %></td>
+    </tr>
+    <tr>
+  	  <td><%= f.label(:description, "Message") %></td>
+      <td><%= f.text_area :description %></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><%= f.submit("Submit") %></td>
+    </tr>
+  </table>
+<% end %>

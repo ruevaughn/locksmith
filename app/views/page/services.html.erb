@@ -1,0 +1,8 @@
+  <h3></h3>
+  <p><%= markdown(@page_header.description) %></p>
+<hr>
+<% @categories.each do |category| %>
+  <h3><%= category.name %></h3>
+  <%= render 'subcategories', :item => category unless category.leaf? %> 
+
+<% end %>

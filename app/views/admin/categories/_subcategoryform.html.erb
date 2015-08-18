@@ -1,0 +1,16 @@
+<%= form_for [:admin, @category] do |f| %>
+
+<p>
+  <%= f.label(:name) %>
+  <%= f.text_field :name %>
+</p>
+<p>
+  <%= f.label(:parent_id) %>
+  <%= f.select :parent_id, Category.roots.collect {|c| [ c.name, c.id ] } %>
+</p>
+	<!--- TODO: ADD ABILITY TO UPLOAD IMAGES -->
+  <%# f.file_field :image %>
+<p>
+  <%= f.submit("Submit") %>
+</p>
+<% end %>

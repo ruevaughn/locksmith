@@ -1,0 +1,16 @@
+  <h3><%= @page_header.title %> - <h5><%= markdown(@page_header.description) %></h5> </h3>
+  <% @discounts.each do |discount| %>
+<div id="coupons">
+<table>
+	<tr> 
+		<td>
+      <h3> <%= discount.name %> </h3>
+      <h4>
+  	    <%= t ".coupon_description" %>: <%= discount.description %>
+        <%= t ".coupon_expiration" %> <%= discount.expiration.strftime("%m-%d-%Y") %>
+      </h4>
+    </td>
+  </tr>
+</table>
+</div>
+<% end %>

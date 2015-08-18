@@ -1,0 +1,37 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  request_bid:
+    new:
+      description: "Please fill out the form. We will receive your bid and contact you as soon as possible. Thanks for giving us the opportunity to serve you!"
+      request: "Request a bid"
+  page:
+    home:
+      about: "About Us"
+      news: "Jensen Locksmithing News"
+    discounts:
+      coupon_name: "Name of Coupon"
+      coupon_description: "Description"
+      coupon_expiration: "Expires"
+    faq:
+      question: "Question:"
+      answer: "Answer:"
+    contact_us:
+      phone: "Phone Number:"
+      email: "Email Address:"
+      bid: "Need a bid? Request it"
+      here: "here!"
+
+  layouts:
+    application:
+      call: "Call us today!"
+      contact1: "We understand there are emergencies 24/7. We will be here for you. Give us a call at"
+      number: "(435)-669-4637"
+      contact2: "for great service."
+      special: "Special Offers"
+      special_description: "Here at Jensen Locksmithing we love discounts as much as you do. Check out our coupons and discounts section"
+      here: "here"
+    header:
+      call_anytime: "Call us anytime at"
+      serving_since: "Servicing Southern Utah Since 2008"

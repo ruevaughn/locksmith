@@ -1,0 +1,21 @@
+<h1>Current Frequently Asked Questions:</h1>
+<%= link_to "Create New FAQ", new_admin_faq_path %>
+
+
+<ul id="faqs" data-update-url="<%= sort_admin_faqs_url %>">
+<% @faqs.each do |faq| %>
+  <%= content_tag_for :li, faq do %>
+   
+    <span class="handle">[drag]
+      Question: <%= faq.question %> 
+    </span>
+      
+    <%= link_to "Edit FAQ", edit_admin_faq_path(faq) %> |
+    <%= link_to "Delete FAQ", admin_faq_path(faq), :method => :delete, :confirm => "Are you sure you want to delete this FAQ?" %>
+    <div id="admin_faq_answer">
+       Answer: <%= faq.answer %>
+
+     </div>
+     <br />
+  <% end %>
+<% end %>

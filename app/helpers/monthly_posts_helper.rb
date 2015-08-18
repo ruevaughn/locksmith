@@ -1,0 +1,2 @@
+module MonthlyPostsHelper
+end

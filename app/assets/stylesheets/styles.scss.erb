@@ -1,0 +1,382 @@
+@import "variables";
+
+body {
+  font-family: 'Open Sans', light;
+  color: $font-grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: $content-odd;
+
+  h1, h2, h3 {
+  	font-weight: 300;
+	}
+
+  ul {
+  	margin: 0;
+	}
+
+}
+
+
+footer#bottom{
+	background-image: url(<%= asset_path 'footer-bg.png' %>);
+  background-repeat: repeat-x;
+  z-index: 1030;
+  margin-bottom: 0; 
+  height: 65px;
+  text-shadow: 1px 1px 1px #000;
+
+  .wrapper {
+  	padding-bottom:0px;
+  	padding-top: 20px;
+	}
+
+  p{
+  	padding-bottom:10px;
+  	font-size:12px;
+  	color: #fff;
+	}
+}
+
+header#top{
+	background-image: url(<%= asset_path 'header-background.png' %>);
+  background-repeat: repeat-x;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0; 
+  height: 76px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#slogan {
+	position: absolute;
+	color: $new-brown;
+	top: 7px;
+	left: 325px;
+}
+
+#call {
+	position: absolute;
+	color: $new-brown;
+	right: 0px;
+	top: 7px;
+
+	.white{
+		color: $white;
+	}
+}
+
+#logo {
+	position: relative;
+	display: inline-block;
+	margin-top: 5px;
+	left: 50px;
+	width: 232px;
+}
+
+#menu-help {
+	color: #CCCCCC;
+	font-size: 9px;
+	position: absolute;
+	right: 10px;
+	top: 50px;
+}
+
+#facebook{
+  position: absolute;
+  top: 42px;
+  right: 27px;
+  height: 16px;
+  width: 16px;
+}
+
+#googleplus{
+	position: absolute;
+	top: 42px;
+	right:0px;
+	height: 16px;
+  width: 16px;
+}
+
+#header-wrapper{
+	position: relative;
+	max-width: 944px;
+	margin: 0 auto;
+}
+
+#content-top{
+	padding-top: 0;
+}
+
+.wrapper{
+	max-width: 944px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#content{
+	position: relative;
+	background-color: $content-odd;
+  top:76px;
+	.intro {
+		display: inline-block;
+		margin-top: 25px;
+		font-size: 18px;
+	}
+
+	.main-image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid #fff;
+		-moz-box-shadow: 0 0 5px #000;
+		-webkit-box-shadow: 0 0 5px #000;
+		box-shadow: 0 0 5px #000;
+	}
+
+	.available{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;	
+	}
+
+	.number {
+		display: block;
+		text-align: center;
+		margin-top: 20px;	
+		font-size:28px;
+	}
+
+	.email {
+		display: block;
+		text-align: center;
+		margin-top: 20px;
+		color: $font-green;
+		font-size: 18px;
+	}
+
+	.divider {
+		display: block;
+		background-image: url(<%= asset_path 'content-divider.png' %>);
+	  background-repeat: repeat-x;
+	  height: 5px;
+	  margin-left: auto;
+	  margin-right: auto;
+		margin-top: 40px;
+	}
+}
+
+.hidden {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+#services{
+	background-color: $content-even;
+	list-style: none;
+
+	.span5{
+		padding-top: 40px;
+	}
+
+	ul{
+		list-style: none;
+	}
+
+	.headline{
+		font-size: 32px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+
+	.services-name{
+		color: $font-lighter-grey;
+		font-size: 16px;
+		margin-top: 30px;
+		margin-bottom: 0;
+		line-height: 20px;
+	}
+
+	.service {
+		position: relative;
+		font-size: 14px;
+		background-color: $content-odd;
+		margin: 14px 0;
+		padding-left: 20px;
+		padding-right: 10px;
+		margin-bottom: 0px;
+		line-height: 30px;;
+	}
+
+	.details {
+		font-size: 12px;
+		margin: 10px 20px 0 20px;
+	}
+	.arrow {
+		position: absolute;
+		top: 12px;
+		right: 12px;
+	}
+}
+
+#reviews{
+
+	.headline{
+		font-size: 32px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+
+	.arrow-left{
+		position: absolute;
+		left: -10px;
+		top: 40%;
+		width: 0; 
+		height: 0; 
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		border-right:10px solid $form-submit; 
+
+	}
+
+	.review{
+		position: relative;
+		min-height:60px;
+		background-color: $form-submit;
+		# background-color: #f6f5ed;
+		margin-left: 80px;
+		margin-bottom: 20px;
+		padding: 8px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2)
+	}
+
+	.review-name{
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.review-content{
+
+	}
+
+	.review-image{
+		position: absolute;
+		left: -70px;
+		height: 50px;
+		width: 50px;
+		box-shadow: 0 1px 2px rgba(0,0,0,0.2)
+	}
+
+	#new_review{
+		textarea {
+			width: 90%;
+			height: 60px;
+		}
+
+		input[type="text"]{
+			display: inline;
+		}
+
+	}
+	
+}
+
+#specials{
+	
+	position: relative;
+	background-color: $content-even;
+
+	.headline{
+		font-size: 32px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+	.icon-gift{
+		position:absolute;
+		top:-8px;
+		left:-7px;
+	}
+	.discount{
+		position: relative;
+		padding: 10px;
+		margin-bottom: 20px;
+		display: block;
+		border: 3px dashed $form-submit;
+
+		.expires{
+			padding-top: 8px;
+			display:block;
+			font-size:12px;
+		}
+		h2{
+			line-height:20px;
+			font-size:18px;
+		}
+
+	}
+}
+
+#contact-us {
+	position: relative;
+	background-color: $content-odd;
+
+	.headline{
+		font-size: 32px;
+		margin-bottom: 20px;
+		margin-top: 0;
+	}
+
+	p{
+		text-align:center;
+	}
+
+	#new_message{
+
+		input[type="text"]{
+			display: inline;
+		}
+
+		textarea{
+			width: 80%;
+			height:60px;
+		}
+
+	}
+
+
+
+}
+.bold {
+	font-weight: 600;
+}
+
+/* Javascript to push page down when they click button */
+#content.content-collapsed{
+  top: 285px;
+}
+
+
+/* micro clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.clearfix {
+    zoom:1;
+}
+

@@ -1,0 +1,22 @@
+<ul>
+<% item.children.each_with_index  do |subcategory, i| %>
+   <h2 class="services-name"><%= subcategory.name.upcase %></h2>
+    <% subcategory.products.position.each do |product| %>
+        <li>
+          <% unless product.price == nil %>
+        	  <h3 class="service"><span class="bold"><%= number_to_currency(product.price) %></span> - <%= product.name %> <%= image_tag((i == 0 && item.name == 'Services' ? 'arrow-up.png' : 'arrow-down.png'), options = {class: 'arrow'}) %></h3>
+          <% else %>
+           <h3 class="service"><%= product.name %> <%= image_tag((i == 0 && item.name == 'Services' ? 'arrow-up.png' : 'arrow-down.png'), options = {class: 'arrow'}) %></h3>
+         	<% end %>
+          <% if i == 0 && item.name == 'Services' %>
+            <div class='details'>
+          <% else %>
+            <div class='details hidden'>    
+          <% end %>
+          Details: <%= product.description %>
+         	</div>
+        </li>
+    <% end %> 
+  </li>
+ <% end %> 
+</ul>

@@ -1,0 +1,17 @@
+<%= form_for(@category) do |f| %>
+
+<p>
+  <%= f.label(:name) %>
+  <%= f.text_field :name %>
+</p>
+<p>
+  <%= f.label(:parent_id) %>
+  <%= f.select :parent_id, Category.roots.collect {|c| [ c.name, c.id ] } %>
+</p>
+<p>
+  <%= f.file_field :image %>
+</p>
+<p>
+  <%= f.submit("Submit") %>
+</p>
+<% end %>

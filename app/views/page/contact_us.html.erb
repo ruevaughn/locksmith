@@ -1,0 +1,13 @@
+<h3><%= @page_header.title %> - <%= t ".bid" %>
+  <%= link_to request_bid_path do %>
+    <%= t ".here" %>
+  <% end %>
+</h3>
+
+<hr>
+<% @contacts.each do |contact| %>
+  <h2><%= t ".phone" %> <%= contact.phone %></h2>
+  <h2><%= t ".email" %> <%= contact.email %></h2>
+<% end %>
+
+

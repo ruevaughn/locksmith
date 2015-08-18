@@ -1,0 +1,9 @@
+<div class='row-fluid'>
+		<div class='span7'>
+			<h1 class='headline'><%= @services.name %></h1>
+			<%= render 'subcategories', item: @services %> 
+	</div>
+	<div class="span5">
+		<%= render 'subcategories', item: @products %> 
+	</div>
+</div>

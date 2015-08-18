@@ -1,0 +1,294 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import "variables";
+
+.navbar {
+	margin-bottom: 0px;
+	.brand {
+		padding: 0;
+	}
+
+	.btn-navbar {
+		margin-top: 25px;
+	}
+	.nav {
+		margin-top: 35px;
+		margin-left: 70px;
+
+		li {
+			margin: 1px 20px 0px 0px;
+			&:hover, &:focus {
+				border-bottom: 3px solid $main-green;
+			}
+			a {
+				// Removing Defaults
+					text-shadow: none;
+					padding: 0px;
+
+				// Adding To	
+					height: 19px;
+					margin: 5px 5px 5px 5px;
+			  	color: $white;
+					font-size: 13px;
+					
+			  	&:hover, &:focus {
+			  		// Removing Defaults
+			  		background-color: none;
+			  		box-shadow: none;
+
+			  		// Altering Defaults
+			  		color: $white;
+
+			  	}
+				}
+			}
+
+			.active { 
+			  // Changing Defaults
+			  margin: 0px 20px 0px 0px;
+
+				// Adding to
+			  border-top: 1px solid #373738;
+			  background-color: #2f2f2f;
+		  	border-bottom: 3px solid $main-green;
+
+		  	a {
+		  		background-color: #2f2f2f;
+		  		color: $white;
+		  		&:hover {
+			  		background-color: #2f2f2f;
+			  		color: $white;
+			  		text-shadow: none;
+			  		font-family: 'Open Sans', light;
+						text-decoration: none;
+			  	}
+				}
+			}
+		}
+}
+
+.navbar-inner {
+	// Removing defaults
+	border-radius: 0px;
+	background: none;
+	box-shadow: none;
+	border: none;
+	background: none;
+
+	// Altering Defaults
+	height: 76px;
+
+	// Adding to
+	margin-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+@media (max-width: 979px) {
+	#top #header-wrapper {
+		max-width: 94%;
+	  #slogan {
+			left: 265px;
+		}
+	}
+	#content {
+		.wrapper{
+			max-width: 94%;
+			.available {
+			  margin-top: 10px;
+			}
+			.number {
+			  margin-top: 10px;
+			}
+			.email {
+			  margin-top: 10px;
+			}
+			.divider{
+			  margin-top: 20px;
+			  margin-bottom: 20px;
+			  width: 80%;
+			}
+		}
+	}
+
+	.nav-collapse, .nav-collapse.collapse {
+		overflow: hidden;
+		height: 0;
+		float: left;
+		width: 100%;
+	}
+
+	span#call {
+
+	}
+
+	.navbar .nav {
+		margin-top: 10px;
+		margin-left: 0px;
+		background-color: $content-odd;
+		li {
+		border-radius: 10px;
+		margin: 2px 0;
+		padding: 2px;
+
+			&:hover, &:focus{
+				border-bottom: none;
+				background-color: $nav-hover;
+			}
+			a{
+
+				color: $font-grey;
+				border-bottom: none;
+				&:hover, &:focus {
+				  		// Removing Defaults
+				  		background-color: $nav-hover;
+				  		box-shadow: none;
+				  		border-bottom: none;
+
+				  		// Altering Defaults
+				  		color: $font-grey;
+
+				  	}
+			}
+		}
+		.active {		
+			margin: 0px 0px 0px 0px;
+			border-bottom: none;
+			border-top: none;
+			background-color: $nav-hover;
+
+			li{
+				background-color: $nav-hover;
+				-webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+				-moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+				box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+
+			}
+
+			a{
+				background-color: $nav-hover;
+			  border-bottom: none;
+			  color: $font-grey;
+			  box-shadow: none;
+			  -webkit-box-shadow: none;
+			  -moz-box-shadow: none;
+
+
+			  &:hover, &:focus{
+			  	background-color: $nav-hover;
+			  	color: $font-grey;
+			  	box-shadow: none;
+			  	-webkit-box-shadow: none;
+			  	-moz-box-shadow: none;
+
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 767px) {
+	#content{
+		.main-image{
+			width: 50%;
+		}
+		.wrapper{
+			.intro {
+				margin: 0px 10px 10px 10px;
+			}
+		}
+	}
+}
+
+@media(max-width: 480px) {
+
+	#services{
+		.service{
+			line-height: 20px;
+		}
+	}
+
+	#services, #content, #contact-us, #reviews, #specials{
+		.wrapper{
+			.headline{
+				font-size:18px;
+			}
+		}
+	}
+
+	#new_message{
+		input[type="text"]{
+			width:80%;
+		}	
+	}
+
+	#new_review{
+		input[type="text"]{
+			width:80%;
+		}	
+	}
+
+#content {
+		.wrapper{
+			.intro {
+				font-size: 14px;
+				text-align: center;
+				float: none;
+			}
+			.available {
+				width: 80%;
+			}
+			.number {
+				font-size: 18px;
+			}
+			.email {
+				font-size: 14px;
+			}
+		}
+	}
+	.nav-collapse, .nav-collapse.collapse {
+		margin-top:10px;
+	}
+	.navbar-inner {
+	  position: relative;
+	}
+	 .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+
+  span#call{
+	  top:0px;
+    font-size: 70%;
+	}
+	a#logo {
+  	width: 70%;
+  	position: absolute;
+  	z-index: 0;
+  	margin-top:0px;
+  	bottom: 13px;
+  	left: 0px;
+
+  	img{
+  		bottom:13px;
+  	}
+	}	
+}
+
+
+@media(max-width: 300px) {
+	#content{
+		.wrapper{
+			.email{
+				font-size:10px;
+			}
+		}
+	}
+}
+

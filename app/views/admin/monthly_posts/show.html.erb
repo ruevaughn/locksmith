@@ -1,0 +1,20 @@
+<div id="monthly_post">
+  <table>
+    <tr>
+	    <td>
+		    <%= @monthly_post.created_at.strftime("%m-%d-%Y") %>
+		    <%= link_to "Edit", edit_admin_monthly_post_path(@monthly_post) %> |
+		    <%= link_to "Delete", admin_monthly_post_path(@monthly_post), method: 'delete', confirm: "Are you sure you want to delete this post?" %>
+	    </td>
+    </tr>
+    
+    <tr>
+	    <td><%= @monthly_post.body %></td>
+    </tr>
+  </table>
+
+<p>
+  <%= link_to "Post new", new_admin_monthly_post_path %> |
+  <%= link_to "View Older Posts", admin_monthly_posts_path %>
+</p>
+</div>

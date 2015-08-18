@@ -1,0 +1,10 @@
+<h1 class='headline'>Specials & Coupons</h1>
+<% @discounts.each do |discount| %>
+	<div class="discount">
+		<i class="icon-gift"></i>
+		<h2><%= discount.name %></h2>
+	  <p><%= t ".coupon_description" %>: <%= discount.description %>
+	  <span class="expires"><%= t ".coupon_expiration" %> <%= discount.expiration.strftime("%m-%d-%Y") %>
+	  </span></p>
+	</div>
+<% end %>

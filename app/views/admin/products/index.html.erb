@@ -1,0 +1,53 @@
+<div id="instructions">
+<table>
+  <th> <h4> Icons </h4> </th>
+  <th> <h4> Instructions </h4> </th>
+  <tr>
+    <td>
+      The <%= image_tag("edit_16.png") %> Icon means Edit 
+      
+      <br />The <%= image_tag("delete_16.png") %> Icon means Delete
+    </td>
+    <td>
+      Reorder Categories and Subcategories - simply left click and drag the name to the spot you want, and click "Save Order".
+      To Reorder Products simply click the up or down arrows, and it will automatically refresh and save the order. No need to click "Save Order". To Edit or Delete them, click their edit/delete icons
+    </td>
+  </tr>
+  <tr>
+
+  </tr>
+</table>
+</div>
+<br />
+
+<nav id="admin">
+<ul>
+  <li><%= link_to "New Category", new_admin_category_path %></li>
+  <li><%= link_to "New Subcategory", new_subcategory_admin_categories_path %></li>
+  <li><%= link_to "New product", new_admin_product_path %></li>
+</ul>
+</nav>
+
+<h3>Categories - <a href='#' id='serialize'>Save Order</a> | <a href="javascript:location.reload(true)">Reset Order</a></h3>
+<div id="category">
+  <ul id="sortable">
+    <% Category.roots.each do |cat| %>
+      <li id='category_<%= cat.id %>'>
+        <span><%= cat.name %></span>
+     
+        <%= link_to image_tag("edit_16.png",:alt => "Edit Category"), edit_admin_category_path(cat) %>
+        <%= link_to image_tag("delete_16.png"), admin_category_path(cat), :method => :delete, :confirm => "Are you sure you want to delete this category?" %>
+        <%= render 'admin/shared/admin_subcategories', :item => cat unless cat.leaf? %>
+    </li>
+       <hr>
+  <% end %>
+  <!-- end category -->
+  
+</ul>
+  </div>
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+<nav role="navigation">
+	<a class="brand" id="logo" title="St. George, Hurricane Locksmith for all your home, commercial, auto and lockout needs"  href="#" ><%= image_tag @logo_default.first.image_url.to_s, alt: "Jensen Locksmithing Logo" %></a>
+	<span id="menu-help" class="hidden-desktop">Tap for Menu</span>
+	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</a>
+
+	 <div class="nav-collapse collapse">
+		 <ul class="nav">
+			<li class="active"><%= link_to "Services", '#', data: {section: 'services'} %></li>
+			<li><%= link_to "Customer Reviews", '#', data: {section: 'reviews'} %></li>
+			<li><%= link_to "Specials", '#', data: {section: 'specials'} %></li>
+			<li><%= link_to "Blog", '#', class: 'blog' %></li>
+			<li><%= link_to "Contact Us", '#', data: {section: 'contact-us'}  %></li>
+		</ul>
+	</div>
+</nav>

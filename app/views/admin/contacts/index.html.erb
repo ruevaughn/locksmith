@@ -1,0 +1,10 @@
+<% @contacts.each do |contact| %>
+  <p><b>Phone:</b> <%= contact.phone %> </p>
+  <p><b>Email:</b> <%= contact.email %></p>
+  <p><b>Facebook:</b> <%= contact.facebook %> </p>
+  <p><b>Twitter:</b> <%= contact.twitter %></p>
+  <p><b>Google Reviews:</b> <%= contact.google_reviews %></p>
+  ------<br />
+  <%= link_to 'Edit', edit_admin_contact_path(contact) %>
+  <br / ><br />
+<% end %>

@@ -1,0 +1,17 @@
+<div class='row-fluid'>
+	<h1 class='headline'>Customer Reviews</h1>
+	<% @reviews.each_with_index do |review, i| %>
+		<div class="review">
+			<%= image_tag "review-image-male.jpg", options = {class: 'review-image'} %>
+			<div class="arrow-left"></div>
+			<div class="review-name"><%= review.first_name %> <%= review.last_name %></div>
+			<div class="review-content"><%= review.body %></div>
+		</div>
+	<% end %>
+</div>
+<div class='row-fluid'>
+	<p class="new-review-click">Click <%= link_to 'here' %> to leave us a review</p>
+	<div class="span6 offset3 hidden">
+		<%= render 'page/layouts/new_review_form' %>
+	</div>
+</div>

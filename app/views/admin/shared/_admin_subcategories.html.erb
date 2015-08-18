@@ -1,0 +1,25 @@
+<ul>
+  <% item.children.each do |subcategory| %>
+
+    <li id='category_<%=subcategory.id %>'>
+      <span>
+      <%= subcategory.name %>
+        <!-- TODO: Fix this so it edits admin subcategory path instead of category -->
+        <%= link_to image_tag("edit_16.png"), edit_admin_category_path(subcategory) %>
+        <%= link_to image_tag("delete_16.png"), admin_category_path(subcategory), :method => :delete, :confirm => "Are you sure you want to delete this Subcategory?" %> 
+      </span>
+      </p>
+      <% subcategory.products.position.each do |product| %>
+      <p>
+      	<%= link_to image_tag("arrow_up_16.png"), move_up_admin_product_path(product.id), method: :put %> | 
+        <%= link_to image_tag("arrow_down_16.png"), move_down_admin_product_path(product), method: :put %>
+       <%= product.name %>
+       <%= image_tag product.image_url if product.image? %>
+        <%= link_to image_tag("edit_16.png"), edit_admin_product_path(product) %>
+        <%= link_to image_tag("delete_16.png"), admin_product_path(product), :method => :delete, :confirm => "Are you sure you want to delete this product?" %> 
+      </p>
+        <% end %> 
+      <%= render 'admin/shared/admin_subcategories', :item => subcategory unless subcategory.leaf? %>
+    </li>
+  <% end %> <br />
+</ul>

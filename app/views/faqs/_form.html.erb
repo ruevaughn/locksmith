@@ -1,0 +1,21 @@
+<%= form_for(@faq) do |f| %>
+
+<p>
+  <%= f.label(:question) %>
+  <%= f.text_area :question %>
+</p>
+
+<p>
+  <%= f.label(:answer) %>
+  <%= f.text_area :answer %>
+</p>
+
+<p>
+  <% # f.label(:position) %>
+  <% # f.text_field :position %>
+
+</p>
+<p>
+  <%= f.submit("Submit") %>
+</p>
+<% end %>

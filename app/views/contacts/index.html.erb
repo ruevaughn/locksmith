@@ -1,0 +1,9 @@
+<% @contacts.each do |contact| %>
+  <p>Phone: <%= contact.phone %> </p>
+  <p>Email: <%= contact.email %></p>
+  <p>Facebook: <%= contact.facebook %> </p>
+  <p>Twitter: <%= contact.twitter %></p>
+  ------<br />
+  <%= link_to 'Edit', edit_contact_path(contact) %>
+  <br / ><br />
+<% end %>

@@ -1,0 +1,19 @@
+<%= form_for [:admin, @logo] do |f| %>
+
+<p>
+  <%= f.label(:name) %>
+  <%= f.text_field :name %>
+</p>
+<p>
+  <%= f.label(:image) %>
+  <%= f.file_field :image %>
+</p>
+<p>
+  Default Logo?
+  Yes:<%= f.radio_button :default, true %>
+  No:<%= f.radio_button :default, false %>
+</p>
+<p>
+  <%= f.submit("Submit") %>
+</p>
+<% end %>

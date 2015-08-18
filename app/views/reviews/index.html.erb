@@ -1,0 +1,5 @@
+<% @reviews.each do |review| %>
+  <h3><%= review.first_name %> <%= review.last_name %></h3>
+  <p><%= review.body %> <%= link_to 'Edit', edit_review_path(review) %> </p>
+  
+<% end %>
